@@ -1,0 +1,28 @@
+{
+    "name": "citro-hacks-server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/subhashis2204/citro-hacks-server.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/subhashis2204/citro-hacks-server/issues"
+    },
+    "homepage": "https://github.com/subhashis2204/citro-hacks-server#readme",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "nodemon": "^3.0.1",
+        "openai": "^3.3.0"
+    }
+}
