@@ -28,8 +28,8 @@ Welcome!! **Sophia**, a virtual interviewer application that simulates real inte
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/chatbot-interviewer.git
-   cd chatbot-interviewer
+   git clone https://github.com/subhashis2204/stemist-hacks-repo.git
+   cd stemist-hacks-repo
     ```
 2. Install dependencies:
    ```bash
