@@ -74,7 +74,7 @@ function ChatPage() {
   console.log(messages)
   return (
     <>
-      <div className="w-full min-h-[90vh] flex flex-col bg-chat-pattern md:bg-chat-pattern-desktop bg-cover bg-no-repeat bg-center">
+      <div className="w-full min-h-[90vh] flex flex-col bg-chat-pattern bg-cover bg-no-repeat bg-center">
         <div className="w-3/4 md:w-1/2 mx-auto h-full md:bg-black mt-2 text-white rounded-md px-2 py-5 flex flex-col justify-start gap-4 grow">
           {renderedMessages}
           {thinking && <BotThinking />}
