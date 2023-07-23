@@ -1,6 +1,7 @@
-import styles from "../style";
-import { discount, robot } from "../assets";
-import GetStarted from "./GetStarted";
+import styles from "../style"
+import { discount, robot } from "../assets"
+import GetStarted from "./GetStarted"
+import NavbarLinkElement from "./NavbarLinkElement"
 
 const Hero = () => {
   return (
@@ -14,29 +15,30 @@ const Hero = () => {
         <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
           <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
           <p className={`${styles.paragraph} ml-2`}>
-            <span className="text-white">Bridging </span> {" "}
-            <span className="text-white">the Gap</span> 
+            <span className="text-white">Bridging </span>{" "}
+            <span className="text-white">the Gap</span>
           </p>
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
-          Empowering <br className="sm:block hidden" />{" "}
+            Empowering <br className="sm:block hidden" />{" "}
             <span className="text-gradient">Diversity</span>{" "}
           </h1>
           <div className="ss:flex hidden md:mr-4 mr-0">
-            <GetStarted />
+            <NavbarLinkElement destination="/chats">
+              <GetStarted />
+            </NavbarLinkElement>
           </div>
         </div>
-        
+
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
-        in tech interviews.
+          in tech interviews.
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
           Designed to empower underrepresented individuals, provides
-          personalized guidance and interview practice
-          to help you thrive in tech interviews and bridge the diversity gap in
-          the tech industry
+          personalized guidance and interview practice to help you thrive in
+          tech interviews and bridge the diversity gap in the tech industry
         </p>
       </div>
 
@@ -57,10 +59,12 @@ const Hero = () => {
       </div>
 
       <div className={`ss:hidden ${styles.flexCenter}`}>
-        <GetStarted />
+        <NavbarLinkElement destination="/chats">
+          <GetStarted />
+        </NavbarLinkElement>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Hero;
+export default Hero

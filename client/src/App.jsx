@@ -1,5 +1,8 @@
-import styles from "./style";
-import { Navbar,   Hero } from "./components";
+import styles from "./style"
+import { Navbar, Hero } from "./components"
+import HomePage from "./components/HomePage.jsx"
+import { Route, Routes } from "react-router-dom"
+import ChatPage from "./components/ChatPage"
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
@@ -8,13 +11,11 @@ const App = () => (
         <Navbar />
       </div>
     </div>
-
-    <div className={`bg-primary ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Hero />
-      </div>
-    </div>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/chats" element={<ChatPage />} />
+    </Routes>
   </div>
-);
+)
 
-export default App;
+export default App
