@@ -3,7 +3,7 @@
 
 ![Frame 1090](https://github.com/subhashis2204/stemist-hacks-repo/assets/100105826/abe17e60-063c-4ac8-b5d3-d6e706166f18)
 
-Welcome to ChatBot Interviewer, a virtual interviewer application that simulates real interview scenarios. Engage in a chat-based conversation with the chatbot, answer interview questions, and receive feedback on your performance.
+Welcome!! **Sophia**, a virtual interviewer application that simulates real interview scenarios. Engage in a chat-based conversation with the chatbot, answer interview questions, and receive feedback on your performance.
 
 ## Features
 
